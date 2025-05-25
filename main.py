@@ -12,7 +12,7 @@ from script.Chat_history import save_chat_entry, load_chat_history  # Add load i
 
 # === Load API Key ===
 load_dotenv()
-embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
+embedding_model = SentenceTransformer("all-MiniLM-L6-v2", device="cpu")
 db_dir = "lance_data"
 table_name = "url_chunks"
 
