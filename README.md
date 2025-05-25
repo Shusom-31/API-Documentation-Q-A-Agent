@@ -19,22 +19,22 @@
 - **Framework**: Streamlit
 - **AI Model**: Groq (Llama 3.3-70b-versatile)
 - **Libraries & Tools**:
-  Environment & System
-  -`import os `                           # Access environment and file system
-  -`from dotenv import load_dotenv`       # Load environment variables (e.g. API keys)
-  Web Scraping
-  -`import requests `                     # Fetch content from documentation URLs
-  -`from bs4 import BeautifulSoup `       ## Parse HTML content
-  Embeddings & AI
-  -`from sentence_transformers import SentenceTransformer`   # Create vector embeddings for text
-  -`from phi.agent import Agent `         # Used to define the intelligent agent's behavior and role
-  -`from phi.model.groq import Groq `     # Connects the agent with Groq’s powerful LLM backend
-  Data Handling
-  -`import pandas as pd  `                # For organizing and structuring data before inserting into LanceDB
-  Vector Database
-  -`import lancedb   `                    # High-performance vector database
-  Frontend / UI
-  -`import streamlit as st  `             # To create an interactive and user-friendly web interface
+  *Environment & System
+  - `import os `                           # Access environment and file system
+  - `from dotenv import load_dotenv`       # Load environment variables (e.g. API keys)
+  *Web Scraping
+  - `import requests `                     # Fetch content from documentation URLs
+  - `from bs4 import BeautifulSoup `       ## Parse HTML content
+  *Embeddings & AI
+  - `from sentence_transformers import SentenceTransformer`   # Create vector embeddings for text
+  - `from phi.agent import Agent `         # Used to define the intelligent agent's behavior and role
+  - `from phi.model.groq import Groq `     # Connects the agent with Groq’s powerful LLM backend
+  *Data Handling
+  - `import pandas as pd  `                # For organizing and structuring data before inserting into LanceDB
+  *Vector Database
+  - `import lancedb   `                    # High-performance vector database
+  *Frontend / UI
+  - `import streamlit as st  `             # To create an interactive and user-friendly web interface
   
   
 
