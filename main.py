@@ -23,7 +23,7 @@ db = lancedb.connect(db_dir)
 # === Streamlit UI ===
 def main():
     st.set_page_config(page_title="URL Doc Assistant")
-    st.title("🌐 DocBot – Ask Questions from a Documentation URL")
+    st.title("🌐 DocAI – Ask Questions from a Documentation URL")
 
     url = st.text_input("Enter documentation URL")
 
