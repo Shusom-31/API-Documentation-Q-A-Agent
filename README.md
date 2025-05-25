@@ -54,7 +54,7 @@
 ## Setup & Configuration
 1. **Environment Variables**
 
-   -*Create a .env file in the root directory:
+   -Create a .env file in the root directory:
     ```sh
     GROQ_API_KEY=your_groq_api_key_here
    ```
