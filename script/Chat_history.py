@@ -2,7 +2,7 @@ import json
 from datetime import datetime
 import os
 
-HISTORY_FILE = "chat_history.jsonl"
+HISTORY_FILE = "chat_history.json"
 
 def save_chat_entry(user_input, bot_response):
     entry = {
