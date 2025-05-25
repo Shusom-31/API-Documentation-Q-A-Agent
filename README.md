@@ -3,7 +3,7 @@
 
 ## Overview
 
-**DocBot** is an intelligent assistant that helps users query any online documentation using natural language. It combines web scraping, embedding-based vector search with LanceDB, and a powerful Groq LLM backend to deliver accurate, context-aware answers from technical content.
+**DocAI** is an intelligent assistant that helps users query any online documentation using natural language. It combines web scraping, embedding-based vector search with LanceDB, and a powerful Groq LLM backend to deliver accurate, context-aware answers from technical content.
 
 
 ## Features
@@ -15,9 +15,16 @@
 - ✅ Clean and interactive Streamlit interface
 
 ## Technologies Used
-- **Programming Language**: Python
-- **Framework**: Streamlit
-- **AI Model**: Groq (Llama 3.3-70b-versatile)
+
+| Component   |                   Choice(s)                                             |
+|-------------|-------------------------------------------------------------------------|
+| Language    | Python                                                                  |
+| Vector DB   | LanceDB                                                                 |
+| Embedding   | Sentence Transformers (`all-MiniLM-L6-v2`)                              |
+| LLM         | Groq API Key, model: groq(id=`llama-3.3-70b-versatile`)                 |
+| Interface   | Streamlit                                                               |
+
+
 - **Libraries & Tools**:
   *Environment & System
   - `import os `                           # Access environment and file system
