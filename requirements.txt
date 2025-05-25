@@ -1,11 +1,9 @@
 phidata
 groq
 python_dotenv
-PyMuPDF
-duckduckgo-search
-beautifulsoup4
-requests
-streamlit
-googlesearch-python 
-pycountry
-sqlalchemy
+lancedb 
+sentence-transformers 
+beautifulsoup4 
+streamlit 
+python-dotenv 
+phi
