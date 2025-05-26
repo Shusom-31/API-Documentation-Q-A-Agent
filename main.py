@@ -29,13 +29,13 @@ def main():
 
     url = st.text_input("Enter documentation URL")
     
-    if url and st.button("Load & Process"):
+    if  st.button("Load & Process"):
         with st.spinner("Scraping and indexing..."):
             text = scrape_url(url)
             if text:
                 chunks = chunk_text(text)
                 table = save_to_vector_store(chunks, db, table_name, embedding_model)
-                st.success(f"{len(chunks)} chunks saved!")
+                st.success(f"{len(chunks)} chunks saved to VectorDB!")
 
     if table_name in db.table_names():
         query = st.chat_input("Ask your question...")
